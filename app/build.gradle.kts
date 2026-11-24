@@ -105,6 +105,15 @@ android {
                 }
             }
         }
+        // Release-optimised build of this fork that installs next to the official app
+        // (com.quackify.app). Always signed with the local debug key, never the maintainers'.
+        create("beta") {
+            initWith(getByName("release"))
+            applicationIdSuffix = ".beta"
+            manifestPlaceholders["appName"] = "Quackify β"
+            signingConfig = signingConfigs.getByName("debug")
+            matchingFallbacks += listOf("release")
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
