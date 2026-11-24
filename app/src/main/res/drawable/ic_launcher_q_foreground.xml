@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quack Q on the 108dp adaptive canvas; it stays inside the 66dp safe circle. Also used as
+     the monochrome layer for themed icons, which only reads its alpha. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="-1.5"
+        android:translateY="1.5">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M33,50a17,17 0,1 1,34 0a17,17 0,1 1,-34 0"
+            android:strokeWidth="7"
+            android:strokeColor="#141414" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M78.5,60.5L62.5,63.5L76,72"
+            android:strokeWidth="6.5"
+            android:strokeColor="#141414"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

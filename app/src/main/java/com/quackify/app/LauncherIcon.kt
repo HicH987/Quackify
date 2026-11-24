@@ -111,6 +111,7 @@ private val log = Logs.of(Logs.Module.MAIN)
 
 internal val LAUNCHER_ALIASES = linkedMapOf(
     "default" to ".LauncherDefault",
+    "duck" to ".LauncherDuck",
     "normal" to ".LauncherNormal",
 )
 

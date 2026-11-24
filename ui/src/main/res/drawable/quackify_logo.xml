@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Quack Q: the letter Q whose tail is an open beak. Full-bleed square so it fills the settings
+     icon tile; the splash clips it to a circle. Same mark as the launcher icon's foreground
+     (app: ic_launcher_q_foreground), shown here as the icon's visible 72dp area. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    <path
+        android:fillColor="#F98B05"
+        android:pathData="M0,0h72v72h-72z" />
+    <group
+        android:translateX="-19.5"
+        android:translateY="-16.5">
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M33,50a17,17 0,1 1,34 0a17,17 0,1 1,-34 0"
+            android:strokeWidth="7"
+            android:strokeColor="#141414" />
+        <path
+            android:fillColor="#00000000"
+            android:pathData="M78.5,60.5L62.5,63.5L76,72"
+            android:strokeWidth="6.5"
+            android:strokeColor="#141414"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+    </group>
+</vector>

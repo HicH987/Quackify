@@ -68,6 +68,7 @@
     <string name="all_episodes">All Episodes</string>
     <string name="all_episodes_newest">All episodes • Newest</string>
     <string name="app_icon">App icon</string>
+    <string name="app_icon_duck">Duck</string>
     <string name="app_icon_and_home_screen_widgets">App icon and home screen widgets</string>
     <string name="artist">Artist</string>
     <string name="artist_options">Artist options</string>

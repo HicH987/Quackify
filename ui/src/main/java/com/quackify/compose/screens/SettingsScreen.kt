@@ -699,12 +699,22 @@ fun SettingsScreen(
                         Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                             SettingsIconOption(
                                 label = stringResource(R.string.default_option),
-                                iconRes = R.mipmap.ic_launcher_default,
+                                iconRes = R.drawable.quackify_logo,
                                 selected = appIcon == "default",
                                 onClick = {
                                     appIcon = "default"
                                     clientPrefs.edit().putString("appIcon", "default").apply()
                                     onAppIconChange("default")
+                                }
+                            )
+                            SettingsIconOption(
+                                label = stringResource(R.string.app_icon_duck),
+                                iconRes = R.mipmap.ic_launcher_default,
+                                selected = appIcon == "duck",
+                                onClick = {
+                                    appIcon = "duck"
+                                    clientPrefs.edit().putString("appIcon", "duck").apply()
+                                    onAppIconChange("duck")
                                 }
                             )
                             SettingsIconOption(

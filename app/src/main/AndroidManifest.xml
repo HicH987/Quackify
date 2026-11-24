@@ -66,6 +66,20 @@
         </activity-alias>
 
         <activity-alias
+            android:name=".LauncherDuck"
+            android:enabled="false"
+            android:exported="true"
+            android:icon="@mipmap/ic_launcher_duck"
+            android:roundIcon="@mipmap/ic_launcher_duck_round"
+            android:label="${appName}"
+            android:targetActivity=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity-alias>
+
+        <activity-alias
             android:name=".LauncherNormal"
             android:enabled="false"
             android:exported="true"
